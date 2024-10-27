@@ -1,0 +1,120 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+body{
+  color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #242127;
+    padding: 6px 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 16px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    /* border-radius: 5px; */
+  }
+
+  nav ul li a:hover
+  {
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    color: aqua;
+  }
+
+  
+  main {
+    padding: 0 20px 20px 20px;
+    background: linear-gradient(134deg,rgba(13, 224, 231, 0.749),rgba(225, 7, 181, 0.733));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 682px;
+    display: flex;
+    justify-content: space-between;
+  }
+main #article
+{
+    width: 80%;
+    padding: 30px;
+}
+
+main #images
+{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(2px);
+}
+
+ 
+ main #images div img 
+{
+    height: 180px;
+    margin: 4px 0 20px 0px;
+    width: 270px;
+} 
+
+#images #img1
+{
+  margin-top: 28px;
+}
+
+section p{
+  font-size: 1.26rem;
+  color: rgb(0, 0, 0);
+  line-height: 26px;
+
+}
+
+
+  section #collageName
+  {
+    margin: 0 0 40px 20px ;
+    text-align: center;
+    font-size: 59px;
+    color: rgb(229, 51, 137);
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  footer {
+    background-color: #1647a1e7;
+    padding: 3px;
+    margin-top: 7px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 44px;
+  }
+
+
+  footer p{
+    color: white;
+    margin-bottom: 4px;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+  } 
+
